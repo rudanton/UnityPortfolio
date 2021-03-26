@@ -2,14 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Player
 {
-   
     Vector3 dir;
-    CharacterController cc;
-    Animator anim;
-
-    PlayerAttack pa;
 
     public float speed = 7f;
     public float jumpPower = 10f;
@@ -17,20 +12,12 @@ public class PlayerController : MonoBehaviour
 
     float skid = 0f;
     float dash = 1f;
+    public float attackDamage;
 
     float yVelocity=0f;
     float rotSpeed = 200f;
     float mx;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        cc = GetComponent<CharacterController>();
-        anim = GetComponentInChildren<Animator>();
-        pa = FindObjectOfType<PlayerAttack>();
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -60,11 +47,13 @@ public class PlayerController : MonoBehaviour
         {
             dash = 1.8f;
             anim.SetBool("Dash", true);
+            attackDamage = 15f;
         }
         else
         {
             dash = 1;
             anim.SetBool("Dash", false);
+            attackDamage = 10f;
         }
         if(pa.Move)
         {

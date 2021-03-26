@@ -4,26 +4,27 @@ using UnityEngine;
 
 public class LivingOrganism : MonoBehaviour, IDamageable
 {
-    float primaryHP;
-    float HP;
-    float heal;
-    public bool dead { get; private set; }
-
-    void Awake()
+    protected float primaryHP;
+    public float HP { get; protected set; }
+    protected float heal;
+    public bool dead {get; protected set; }
+    
+    public virtual void GetDamage(float damage, Vector3 LookCollider)
     {
-        HP = primaryHP;
-
-    }
-    public virtual void GetDamage(float damage)
-    {
-
+        Vector3 target = new Vector3(LookCollider.x, gameObject.transform.position.y, LookCollider.z);
+        gameObject.transform.LookAt(target);
+        if (HP > 0)
+        {
+            HP -= damage;
+        }
+        else Die();
     }
     protected virtual void healByRest()
     {
-
+        HP += heal;
     }
     protected virtual void Die()
     {
-
+        dead = true;
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimationEvents : MonoBehaviour
 {
     PlayerAttack pa;
+    public GameObject box;
     void Start()
     {
         pa = FindObjectOfType<PlayerAttack>();
@@ -17,4 +18,9 @@ public class AnimationEvents : MonoBehaviour
     {
         pa.UnderCombat();
     }
+    void Attack()
+    {
+        box.SetActive(true);
+    }
+    
 }

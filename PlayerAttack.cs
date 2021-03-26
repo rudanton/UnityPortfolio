@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class PlayerAttack : Player
 {
-
-    Animator anim;
     public bool Move { get; private set; } = true;
 
     // Start is called before the first frame update
