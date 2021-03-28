@@ -1,0 +1,159 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'ko' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nrk/Desktop/Job/25thKimDH01
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53545
+Successfully changed project path to: C:/Users/nrk/Desktop/Job/25thKimDH01
+C:/Users/nrk/Desktop/Job/25thKimDH01
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 103.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nrk/Desktop/Job/25thKimDH01/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.14501.28009
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002157 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 90.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.086 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 76.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.921300 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.366300 ms  DeleteObjects: 0.283300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_2/LightingData.asset
+  artifactKey: Guid(17dc8be7791e0bf40bf94c2e1e15e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_2/LightingData.asset using Guid(17dc8be7791e0bf40bf94c2e1e15e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 4 files out of 20 are missing.  Please use Generate Lighting to rebuild the lighting data.
+
+ -> (artifact id: 'a17ef077d1945eeefbc8642583b3b839') in 0.035210 seconds
+  Import took 0.037825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_3/ReflectionProbe-0.exr
+  artifactKey: Guid(32e4610c255fde34ca36f2cc228355c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_3/ReflectionProbe-0.exr using Guid(32e4610c255fde34ca36f2cc228355c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d73f01061247e4c3faf2b504b7ceb24') in 0.078320 seconds
+  Import took 0.080769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_1/ReflectionProbe-0.exr
+  artifactKey: Guid(6332e82ee7842f44db9da16f4d8812e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_1/ReflectionProbe-0.exr using Guid(6332e82ee7842f44db9da16f4d8812e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0be0ab04e1fa18c29d4cd86c8b7459d') in 0.015414 seconds
+  Import took 0.017369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_1/LightingData.asset
+  artifactKey: Guid(8bf21cdd4adc5bc42b991f893a0fb695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_1/LightingData.asset using Guid(8bf21cdd4adc5bc42b991f893a0fb695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 64 files out of 320 are missing.  Please use Generate Lighting to rebuild the lighting data.
+
+ -> (artifact id: '991c37a9ecfc37c6383849ae712a9093') in 0.168019 seconds
+  Import took 0.171050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_4/LightingData.asset
+  artifactKey: Guid(b15929685a1f2164ebe9d921655acb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_4/LightingData.asset using Guid(b15929685a1f2164ebe9d921655acb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 144 files out of 720 are missing.  Please use Generate Lighting to rebuild the lighting data.
+
+ -> (artifact id: '2b9fd072f28b73321b402f518068f471') in 0.323741 seconds
+  Import took 0.327206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_2/ReflectionProbe-0.exr
+  artifactKey: Guid(e2f0eb5bc3bcf674cb25e021e9b69e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_2/ReflectionProbe-0.exr using Guid(e2f0eb5bc3bcf674cb25e021e9b69e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f260068bb5a0f8e8cd624d045f5b460') in 0.014484 seconds
+  Import took 0.017162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_4/LightingData.asset
+  artifactKey: Guid(b15929685a1f2164ebe9d921655acb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_4/LightingData.asset using Guid(b15929685a1f2164ebe9d921655acb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 144 files out of 720 are missing.  Please use Generate Lighting to rebuild the lighting data.
+
+ -> (artifact id: '2b9fd072f28b73321b402f518068f471') in 0.350577 seconds
+  Import took 0.355586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_3/LightingData.asset
+  artifactKey: Guid(fd38f3946814a9741af2f1560d6385d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_3/LightingData.asset using Guid(fd38f3946814a9741af2f1560d6385d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 92 files out of 460 are missing.  Please use Generate Lighting to rebuild the lighting data.
+
+ -> (artifact id: '56981293262c8be155a450d2ebba3d28') in 0.199807 seconds
+  Import took 0.203020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_4/ReflectionProbe-0.exr
+  artifactKey: Guid(f45455d2aa34fb1449d8d56567f70c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/KUBIKOS - 3D Cube Village And Farm/Demo/Demo_4/ReflectionProbe-0.exr using Guid(f45455d2aa34fb1449d8d56567f70c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b3110f9c9a519e310efebb7f783ef4') in 0.014453 seconds
+  Import took 0.016656 seconds .
+
